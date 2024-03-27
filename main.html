@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Rock Scissors Paper</title>
+</head>
+<body>
+    <div class="container">
+        <div class="bot section" id="vsbot">
+            <h1 class="vsbot txt">
+                Против бота
+            </h1>
+            <img class="bot_img" src="img/bot.svg" alt="bot">
+            <a id="choose" href="#" class="button">
+                <span class="button_line button_line--top"></span>
+                <span class="button_line button_line--right"></span>
+                <span class="button_line button_line--bottom"></span>
+                <span class="button_line button_line--left"></span>
+                ИГРАТЬ
+            </a>
+        </div>
+        <div class="people section" id="vshuuman">
+            <h1 class="vshuman txt">
+                Против друга
+            </h1>
+            <img class="people_img" src="img/human.svg" alt="">
+            <a href="human.html" class="button">
+                <span class="button_line button_line--top"></span>
+                <span class="button_line button_line--right"></span>
+                <span class="button_line button_line--bottom"></span>
+                <span class="button_line button_line--left"></span>
+                ИГРАТЬ
+            </a>
+        </div>
+        <div class="offer section none" id="section">
+            <h1 class="skill">Выбери уровень сложности</h1>
+            <div class="cansel">
+                <img src="img/cansel.svg" alt="">
+            </div>
+            <div class="accept">
+                <svg width="150" height="150" fill="none">
+                    <g>
+                    <path d="M75 12.5C62.6387 12.5 50.555 16.1656 40.2769 23.0331C29.9988 29.9007 21.988 39.6619 17.2576 51.0823C12.5271 62.5027 11.2894 75.0693 13.7009 87.1931C16.1125 99.317 22.0651 110.453 30.8059 119.194C39.5466 127.935 50.6831 133.888 62.8069 136.299C74.9307 138.711 87.4974 137.473 98.9177 132.742C110.338 128.012 120.099 120.001 126.967 109.723C133.834 99.4451 137.5 87.3613 137.5 75C137.5 66.7924 135.883 58.6651 132.743 51.0823C129.602 43.4994 124.998 36.6095 119.194 30.8058C113.391 25.0022 106.501 20.3984 98.9177 17.2575C91.3349 14.1166 83.2076 12.5 75 12.5V12.5ZM75 125C65.111 125 55.444 122.068 47.2215 116.573C38.9991 111.079 32.5904 103.27 28.8061 94.1342C25.0217 84.9979 24.0315 74.9445 25.9608 65.2455C27.89 55.5464 32.6521 46.6373 39.6447 39.6447C46.6373 32.652 55.5465 27.89 65.2455 25.9607C74.9446 24.0315 84.9979 25.0216 94.1342 28.806C103.271 32.5904 111.079 38.999 116.574 47.2215C122.068 55.4439 125 65.1109 125 75C125 88.2608 119.732 100.979 110.355 110.355C100.979 119.732 88.2609 125 75 125V125Z" fill="#282828"/>
+                    <path d="M91.8749 52.4375L68.2499 83.6875L58.0624 70.5C57.5577 69.8516 56.9301 69.309 56.2157 68.9031C55.5012 68.4972 54.7138 68.236 53.8983 68.1345C53.0829 68.0329 52.2555 68.0929 51.4633 68.3112C50.6711 68.5294 49.9296 68.9015 49.2812 69.4063C48.6328 69.911 48.0902 70.5386 47.6843 71.253C47.2784 71.9675 47.0172 72.7549 46.9157 73.5704C46.8141 74.3858 46.8741 75.2132 47.0923 76.0054C47.3106 76.7976 47.6827 77.5391 48.1874 78.1875L63.3749 97.625C63.9635 98.3699 64.714 98.9709 65.5696 99.3824C66.4251 99.7939 67.3631 100.005 68.3124 100C69.2669 99.9977 70.2082 99.7768 71.0641 99.3543C71.92 98.9318 72.6677 98.3188 73.2499 97.5625L101.812 60.0625C102.824 58.7364 103.267 57.063 103.044 55.4103C102.821 53.7577 101.951 52.2611 100.625 51.25C99.2989 50.2389 97.6254 49.7959 95.9728 50.0186C94.3201 50.2413 92.8236 51.1114 91.8124 52.4375H91.8749Z" fill="#282828"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_16_69">
+                    <rect width="150" height="150" fill="white"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+            </div>
+            <div class="a">
+                <a class="played" href="bot.html">ЛЕГКО</a>
+                <a class="play_drop" href="bot_impossible.html">НЕВОЗМОЖНО</a>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

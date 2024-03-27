@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/human.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Humans</title>
+</head>
+<body>
+    <div class="container">
+        <section class="first_player">
+            <h1 class="player_h1">
+                первый игрок
+            </h1>
+            <div id="img_rock" class="enter_img">
+                <img id="images" class="img_rock" src="img/kylak_left.png" alt="">
+                <img src="img/paper.png" alt="paper" class="paper">
+                <img src="img/rock.png" alt="rock" class="rock">
+                <img src="img/scissors.png" alt="scissors" class="scissors">
+            </div>
+            <ul>
+                <li id="paper" class="choose_li"><img src="img/paper.svg" alt="paper" class="choose"></li>
+                <li id="rock" class="choose_li"><img src="img/rock.svg" alt="rock" class="choose"></li>
+                <li id="scissors" class="choose_li li_scissors"><img src="img/scissors.svg" alt="scissors" class="choose"></li>
+            </ul>
+        </section>
+        <div class="exit">
+            <img id="vs" src="img/vs.svg" alt="versus" class="versus_1">
+            <a class="play again" href="human.html">Еще раз</a>
+            <a href="main.html" class="return">
+                <img class="img_return" src="img/exit.svg" alt="exit">
+            </a>
+        </div>
+        <section class="first_player second_player">
+            <h1 class="player_h1 player2_h1">
+                второй игрок
+            </h1>
+            <div class="enter_img">
+                <img id="images_1" class="img_rock_1" src="img/kylak_right.png" alt="">
+                <img src="img/paper.png" alt="paper" class="paper" id="paper_2">
+                <img src="img/rock.png" alt="rock" class="rock" id="rock_2">
+                <img src="img/scissors.png" alt="scissors" class="scissors" id="scissors_2">
+            </div>
+            <ul>
+                <li id="paper_1" class="choose_li"><img src="img/paper.svg" alt="paper" class="choose"></li>
+                <li id="rock_1" class="choose_li"><img src="img/rock.svg" alt="rock" class="choose"></li>
+                <li id="scissors_1" class="choose_li li_scissors"><img src="img/scissors.svg" alt="scissors" class="choose"></li>
+            </ul>
+        </section>
+    </div>
+    <script src="js/human.js"></script>
+</body>
+</html>

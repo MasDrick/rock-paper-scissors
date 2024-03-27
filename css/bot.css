@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #383838;
+    width: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 44px;
+    padding-top: 80px;
+    color: #FFFFFF;
+    text-shadow: 2px 3px 0px #D27E00;
+}
+.container{
+    width: 1302px;
+    height: 726px;
+    background: #404040;
+    box-shadow: 1px 1px 42px 16px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    margin-top: 240px;
+}
+.player{
+    width: 137px;
+    height: 44px;
+    margin: 0 auto;
+}
+.bot{
+    width: 260px;
+    height: 44px;
+    margin: 0 auto;
+}
+.input_player-rock{
+    width: 280px;
+    height: 280px;
+    background: #404040;
+    box-shadow: 1px 1px 42px 16px rgba(0, 0, 0, 0.25);
+    margin-top: 51px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    width: 70px;
+    height: 70px; 
+    background: #D27E00;
+    border-radius: 36px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    transition: .3s;
+}
+.chooser{
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.right{
+    margin-right: 30px;
+}
+.air:hover{
+    box-shadow: 0 0 10px #D27E00, 0 0 25px #D27E00;
+}
+.all{
+    width: 270px;
+    margin-top: 232px;
+}
+.choose{
+    display: flex;
+    margin-top: 88px;
+    margin-bottom: 88px;
+}
+.versus{
+    display: block;
+    width: 165px;
+    margin: 0 auto;
+}
+.exit{
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+section{
+    position: relative;
+}
+.section{
+    display: block;
+}
+.section_player{
+    width: 280px;
+    margin-left: 132px;
+    margin-right: 104px;
+}
+.section_bot{
+    width: 280px;
+    margin-left: 104px;
+}
+.img_rock{
+    opacity: 0;
+    width: 157px;
+    height: 157px;
+    margin-left: 62px;
+    margin-top: 62px;
+}
+.img_rock_1{
+    opacity: 0;
+    margin-left: 62px;
+    margin-top: 62px;
+    width: 157px;
+    height: 157px;
+}
+.animate{
+    opacity: 1;
+    animation: shake 0.8s;
+    transform: rotate(0deg);
+    backface-visibility: hidden;
+    animation-iteration-count: 3;
+}
+@keyframes shake {
+    0%, 25%, 100%{
+        transform: rotate(0deg);
+    }
+    50%, 75%{
+        transform: rotate(25deg);
+    }
+  }
+  .animating{
+    opacity: 1;
+    animation: shaking 0.8s;
+    transform: rotate(0deg);
+    backface-visibility: hidden;
+    animation-iteration-count: 3;
+}
+@keyframes shaking {
+    0%, 25%, 100%{
+        transform: rotate(0deg);
+    }
+    50%, 75%{
+        transform: rotate(-25deg);
+    }
+  }
+.none{
+    display: none;
+}
+.imgishki{
+    margin-left: 62px;
+    padding-top: 62px;
+    width: 160px;
+    height: 160px;
+}
